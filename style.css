@@ -25,7 +25,7 @@ body{
 }
 
 .instagram-phone{
-    display: flex;
+    display: flex;    
     align-items: center;
     justify-content: center;
     width: 50%;
@@ -157,5 +157,32 @@ body{
 
     .group{
         border: 1px solid transparent;
+    }
+}
+
+@media (max-width: 910px){
+
+    body{
+        background-color: white;        
+    }
+
+    .group{
+        border: none;
+    }
+    .instagram-phone{
+        display: none;
+    }
+
+    .instagram-wrapper{
+        width: 100%;      
+        display: flex;
+        justify-content: center;        
+    }
+    
+    .instagram-continue{
+        display: flex;        
+        align-items: center;        
+        justify-content: space-around;
+        width: 60%;
     }
 }
